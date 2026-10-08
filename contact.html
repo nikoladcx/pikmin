@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles4.css">
+    <script src="js/contact.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Pikmin</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pikmin</div>
+        <a href="#" class="toggle-button"> <!-- hamburger meni :) -->
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="explore.html">EXPLORE</a></li>
+                <li><a href="danger.html">DANGER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- formica/upitnik -->
+     <div class="upitnik">
+        <h1>FORM</h1> <br><hr>
+
+        <form>
+
+            <div class="forma">
+                <br><label for="email">E-mail</label> <br>
+                <input type="email" id="email" name="email" placeholder="Enter e-mail here">
+            </div> <br><hr>
+            <div class="forma">
+                <br><label for="password">Password</label> <br>
+                <input type="password" id="password" name="password" placeholder="Enter password here">
+            </div> <br><hr>
+            <div class="forma">
+                <br><label for="radio">Favorite Pikmin?</label>
+                <input type="radio" name="favoritePikmin" id="red" value="red" class="box"> Red 
+                <input type="radio" name="favoritePikmin" id="blue" value="blue" class="box"> Blue 
+                <input type="radio" name="favoritePikmin" id="yellow" value="yellow" class="box"> Yellow
+                <input type="radio" name="favoritePikmin" id="purple" value="purple" class="box"> Purple 
+                <input type="radio" name="favoritePikmin" id="white" value="white" class="box"> White
+            </div> <br><hr>
+            <!-- <div class="forma"> OVO JE RUZNO I glupavo
+                <br><label for="checkbox">From what locations did you get information on Pikmin?</label> <br>
+                <input type="checkbox" name="nacin" id="sajt" value="sajt" class="box">This awesome site! <br> <br>
+                <input type="checkbox" name="nacin" id="facebook" value="facebook" class="box">Facebook <br> <br>
+                <input type="checkbox" name="nacin" id="tiktok" value="tiktok" class="box">Tik-Tok <br> <br>
+                <input type="checkbox" name="nacin" id="instagram" value="instagram" class="box">Instagram <br> <br>
+                <input type="checkbox" name="nacin" id="youtube" value="youtube" class="box">YouTube <br>
+            </div> <br><hr> -->
+            <div class="forma">
+                <br><label for="message">Any improvements or features you would like added?</label> <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="How can we improve?"></textarea>
+            </div> <br><hr>
+
+            <input type="submit" class="button" value="Submit" id="button">
+
+         </form>
+    </div>
+
+</body>
+</html>
